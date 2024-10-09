@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font: normal 1em verdana, sans-serif;
+    background-color: #C1CED9;
+}
+
+#principal {
+    text-align: center;
+    background-color: #586F8C;
+    color: white;
+}
+
+h1 {
+    color: #586F8C;
+}
+
+.basico {
+    color: #588c65;
+}
+
+.medio {
+    color: #8b8c58;
+}
+
+.avancado {
+    color: #8c5858;
+}
+
+p {
+    text-align: justify;
+}
+
+.destaque {
+    background-color: #8b8c5898;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background-color: #D1E8F4;
+            font: normal 1em verdana, sans-serif;
+        }
+
+        h1, h2 {
+            font-style: italic;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        #titulo {
+            color: White;
+            text-align: center;
+            background-color: #4797D6;
+        }
+
+        .langs {
+            color: #74B6E9;
+        }
+
+        #links {
+            color: lightseagreen;
+        }
+
+        div.linguagens {
+            height: 224px;
+            width: 224px;
+            background-color: lightcoral;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        a {
+            color: rgb(61, 61, 61);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #4797D6;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #64dbd1;
+        }
+
+        a:active {
+            color: lightgoldenrodyellow;
+        }
+
+        a::before {
+            content: '-';
+        }
+
+        a::after {
+            content: '-';
+        }
+
+        div.linguagens:hover {
+            background-color: beige;
+        }
+
+        div#text > p{
+            display: none;
+        }
+
+        div#text:hover > p {
+            display: block;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Programação Web</h1>
+    <h1 class="langs">HTML</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquam aliquid, perferendis quasi enim pariatur laudantium minima. Nihil incidunt nam, minus voluptatum modi veritatis ducimus id expedita velit, impedit distinctio?</p>
+    <h1 class="langs">CSS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quas eaque. Neque, illo beatae aliquam ullam adipisci cupiditate quidem qui magnam fuga quod, minus aliquid laboriosam a, eos consequatur culpa?</p>
+    <h1 id="links">Links</h1>
+    <ul>
+        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+    </ul>
+    <br>
+
+    <div class="linguagens">HTML</div>
+    <div class="linguagens">CSS</div>
+    <div class="linguagens">JavaScript</div>
+    <br>
+    <br>
+    <div id="text">
+        Passe o mouse aqui
+        <p>Texto Escondido</p>
+    </div>
+</body>
+</html>

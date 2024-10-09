@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+
+}
+
+body {
+    background-image: linear-gradient(to right, #9297C4, #DBFCFF);
+}
+
+main {
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px #00ffea6b;
+   width: 600px;
+   padding: 10px;
+   margin: auto;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4758419c;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #04724d80;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}

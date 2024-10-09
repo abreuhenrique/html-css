@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 1em verdana, sans-serif;
+        }
+        
+        div {
+            background-color: lightblue;
+            width: 162px;
+        }
+
+        div > picture {
+            display: none;
+        }
+
+        div:hover > picture {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Peseudo-classe</h1>
+    <div>
+        Passe o mouse aqui
+        <br>
+        <picture>
+            <source media="(max-width:650px)" srcset="midias/imagem-p.png" type="image/png"> 
+            <source media="(max-width:1050px)" srcset="midias/imagem-m.png" type="image/png">
+            <img src="midias/imagem-g.png" alt="">
+        </picture>
+    </div>
+</body>
+</html>

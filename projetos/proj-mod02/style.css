@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #566B73, #7D8B8C, #97A4A6);
+}
+
+h1, h2 {
+    color: #82CFFF;
+    font-family: "Patua One";
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    width: 700px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+audio {
+    display: block;
+    margin: auto;
+}
+
+abbr {
+    text-decoration: none;
+}
+/*
+    #f0430ec2   #efc142cc   #f0680ec4
+*/
