@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento Vertical</title>
+    <style>
+        body {
+            background-color: black;
+            position: relative;
+            height: 96vh;
+        }
+
+        #fora {
+            background-color: purple;
+            width: 600px;
+            height: 300px;
+            
+            position: relative;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #dentro {
+            background-color: yellow;
+            width: 300px;
+            height: 150px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <article></article>
+    <section id="fora">
+        <article id="dentro"></article>
     </section>
 </body>
 </html>
